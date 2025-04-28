@@ -287,7 +287,7 @@ void loop() {
   }
 }
 
-// 
+// get next state logic
 State getNextState(State current) {
   switch (current) {
     case IDLE:
